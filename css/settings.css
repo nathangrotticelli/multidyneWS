@@ -256,95 +256,95 @@ website:   	http://www.themepunch.com
 			padding-top: 1px;
 			background-color:#fff;
 					}
-					
-					
+
+
 .tp-caption.modern_medium_fat{
-			position: absolute; 
-			color: #000; 
-			text-shadow: none; 
-			font-weight: 800; 
-			font-size: 24px; 
-			line-height: 20px; 
-			font-family: 'Open Sans', sans-serif; 
-			margin: 0px; 
-			border-width: 0px; 
-			border-style: none; 
-			white-space:nowrap;		
+			position: absolute;
+			color: #000;
+			text-shadow: none;
+			font-weight: 800;
+			font-size: 24px;
+			line-height: 20px;
+			font-family: 'Open Sans', sans-serif;
+			margin: 0px;
+			border-width: 0px;
+			border-style: none;
+			white-space:nowrap;
 		}
 .tp-caption.modern_medium_fat_white{
-			position: absolute; 
-			color: #fff; 
-			text-shadow: none; 
-			font-weight: 800; 
-			font-size: 24px; 
-			line-height: 20px; 
-			font-family: 'Open Sans', sans-serif; 
-			margin: 0px; 
-			border-width: 0px; 
-			border-style: none; 
-			white-space:nowrap;		
+			position: absolute;
+			color: #fff;
+			text-shadow: none;
+			font-weight: 800;
+			font-size: 24px;
+			line-height: 20px;
+			font-family: 'Open Sans', sans-serif;
+			margin: 0px;
+			border-width: 0px;
+			border-style: none;
+			white-space:nowrap;
 		}
 .tp-caption.modern_medium_light{
-			position: absolute; 
-			color: #fff; 
-			text-shadow: none; 
-			font-weight: 400; 
-			font-size: 16px; 
-			line-height: 20px; 
-			font-family: 'Open Sans', sans-serif; 
-			margin: 0px; 
-			border-width: 0px; 
-			border-style: none; 
-			white-space:nowrap;		
+			position: absolute;
+			color: #fff;
+			text-shadow: none;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 20px;
+			font-family: 'Open Sans', sans-serif;
+			margin: 0px;
+			border-width: 0px;
+			border-style: none;
+			white-space:nowrap;
 		}
 .tp-caption.modern_big_bluebg{
-			position: absolute; 
-			color: #fff; 
-			text-shadow: none; 
-			font-weight: 800; 
-			font-size: 30px; 
-			line-height: 36px; 
-			font-family: 'Open Sans', sans-serif; 
-			padding: 3px 10px; 
-			margin: 0px; 
-			border-width: 0px; 
-			border-style: none; 
-			background-color:#4e5b6c;	
-			letter-spacing: 0;										
+			position: absolute;
+			color: #fff;
+			text-shadow: none;
+			font-weight: 800;
+			font-size: 30px;
+			line-height: 36px;
+			font-family: 'Open Sans', sans-serif;
+			padding: 3px 10px;
+			margin: 0px;
+			border-width: 0px;
+			border-style: none;
+			background-color:#4e5b6c;
+			letter-spacing: 0;
 		}
 .tp-caption.modern_big_redbg{
-			position: absolute; 
-			color: #fff; 
-			text-shadow: none; 
-			font-weight: 300; 
-			font-size: 30px; 
-			line-height: 36px; 
-			font-family: 'Open Sans', sans-serif; 
-			padding: 3px 10px; 
+			position: absolute;
+			color: #fff;
+			text-shadow: none;
+			font-weight: 300;
+			font-size: 30px;
+			line-height: 36px;
+			font-family: 'Open Sans', sans-serif;
+			padding: 3px 10px;
   			padding-top: 1px;
-			margin: 0px; 
-			border-width: 0px; 
-			border-style: none; 
-			background-color:#de543e;	
-			letter-spacing: 0;										
+			margin: 0px;
+			border-width: 0px;
+			border-style: none;
+			background-color:#de543e;
+			letter-spacing: 0;
 		}
 .tp-caption.modern_small_text_dark{
-			position: absolute; 
-			color: #fff; 
-			text-shadow: none; 
-			font-size: 15px; 
-			line-height: 22px; 
-			font-weight: 300; 
-			font-family: 'Open Sans', sans-serif; 
-			margin: 0px; 
-			border-width: 0px; 
-			border-style: none; 
-			white-space:nowrap;		
+			position: absolute;
+			color: #fff;
+			text-shadow: none;
+			font-size: 15px;
+			line-height: 22px;
+			font-weight: 300;
+			font-family: 'Open Sans', sans-serif;
+			margin: 0px;
+			border-width: 0px;
+			border-style: none;
+			white-space:nowrap;
 		}
 
-					
-					
-					
+
+
+
 
 .tp-caption.boxshadow{
 		-moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
@@ -628,7 +628,8 @@ website:   	http://www.themepunch.com
 															-khtml-opacity: 1;
 															opacity: 1;
 															-webkit-transition: opacity 0.2s ease-out; -moz-transition: opacity 0.2s ease-out; -o-transition: opacity 0.2s ease-out; -ms-transition: opacity 0.2s ease-out;
-
+															/*background-color: gray!important;*/
+															/*border-radius: 20%;*/
 														}
 .tparrows.hidearrows									{
 															-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
