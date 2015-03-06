@@ -34,7 +34,7 @@ $(document).ready(function($) {
 			var selector = $filter.find('a.active').attr('data-filter');
 
 			try {
-				$container.isotope({ 
+				$container.isotope({
 					filter	: selector,
 					animationOptions: {
 						duration: 750,
@@ -46,13 +46,13 @@ $(document).ready(function($) {
 			}
 			return false;
 		});
-		
-		// Isotope Filter 
+
+		// Isotope Filter
 		$filter.find('a').click(function(){
 			var selector = $(this).attr('data-filter');
 
 			try {
-				$container.isotope({ 
+				$container.isotope({
 					filter	: selector,
 					animationOptions: {
 						duration: 750,
@@ -105,14 +105,14 @@ $(document).ready(function($) {
 	} catch(err) {
 
 	}
-	
+
 	/*-------------------------------------------------*/
 	/* =  Scroll to TOP
 	/*-------------------------------------------------*/
 
 	var animateTopButton = $('.go-top'),
 		htmBody = $('html, body');
-		
+
 	animateTopButton.click(function(){
 	htmBody.animate({scrollTop: 0}, 'slow');
 		return false;
@@ -138,7 +138,7 @@ $(document).ready(function($) {
 	/* ---------------------------------------------------------------------- */
 	/*	Contact Map
 	/* ---------------------------------------------------------------------- */
-	var contact = {"lat":"51.51152", "lon":"-0.104198"}; //Change a map coordinate here!
+	var contact = {"lat":"40.875049", "lon":"-73.603135"}; //Change a map coordinate here!
 
 	try {
 		var mapContainer = $('.map');
@@ -190,7 +190,7 @@ $(document).ready(function($) {
 			parentCheck = $this.parents('.accord-elem'),
 			accordItems = $('.accord-elem'),
 			accordContent = $('.accord-content');
-			
+
 		if( !parentCheck.hasClass('active')) {
 
 			accordContent.slideUp(400, function(){
@@ -239,7 +239,7 @@ $(document).ready(function($) {
 	/*-------------------------------------------------*/
 
 	var slidertestimonial = $('.bxslider');
-	try{		
+	try{
 		slidertestimonial.bxSlider({
 			mode: 'vertical'
 		});
@@ -275,7 +275,7 @@ $(document).ready(function($) {
 			elemSlide.slideDown(200);
 		} else {
 			$(this).removeClass('active');
-			elemSlide.slideUp(200);			
+			elemSlide.slideUp(200);
 		}
 	});
 
@@ -330,7 +330,7 @@ $(document).ready(function($) {
 
 		var $this = $(this),
 			message = $('.msg');
-		
+
 		if ( !$this.hasClass('main-form') ){
 
 			$.ajax({
@@ -350,7 +350,7 @@ $(document).ready(function($) {
 				}
 			});
 		} else {
-			
+
 			message = $('.msg2');
 			$.ajax({
 				type: "POST",
@@ -389,7 +389,7 @@ $(document).ready(function($) {
 				}
 			}, false );
 		}
-		
+
 		function scrollPage() {
 			var sy = scrollY();
 			if ( sy >= changeHeaderOn ) {
@@ -400,13 +400,13 @@ $(document).ready(function($) {
 			}
 			didScroll = false;
 		}
-		
+
 		function scrollY() {
 			return window.pageYOffset || docElem.scrollTop;
 		}
-		
+
 		init();
-		
+
 	})();
 
 });
